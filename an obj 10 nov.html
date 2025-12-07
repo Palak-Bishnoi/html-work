@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creat an object</title>
+    <script>
+        let person = {
+            firstname: "Joohan",
+            lastname :"Doe",
+            age:24,
+            fullname: function(){
+                return this.firstname +" "+ this.lastname;
+            }
+
+        };
+        alert("person: " + person.fullname()+"(age:"+ person.age +")");
+    </script>
+</head>
+<body>
+    hy hy hello
+</body>
+</html>
